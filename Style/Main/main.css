@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 16px; }
+
+.enter-todo {
+  display: block;
+  width: 50%;
+  margin: 1rem auto;
+  outline: none;
+  padding: 0.5rem;
+  border: none;
+  font-weight: 600;
+  font-size: 1.3rem;
+  border-radius: 0.4rem;
+  opacity: 6;
+  border-bottom: 3px solid #2803ca;
+  background-color: transparent;
+  padding-left: 2rem; }
+  .enter-todo ::placeholder {
+    color: #cec6c6; }
+
+.select-time {
+  display: block;
+  width: 50%;
+  margin: 1rem auto;
+  outline: none;
+  padding: 0.5rem;
+  border: none;
+  font-weight: 600;
+  font-size: 1.3rem;
+  border-radius: 0.4rem;
+  background-color: rgba(245, 245, 245, 0.534);
+  width: 25% !important;
+  border-radius: 0.4rem; }
+
+.save {
+  display: block;
+  width: 50%;
+  margin: 1rem auto;
+  outline: none;
+  padding: 0.5rem;
+  border: none;
+  font-weight: 600;
+  font-size: 1.3rem;
+  border-radius: 0.4rem;
+  width: 30% !important;
+  background-color: rgba(11, 40, 168, 0.986);
+  color: white !important;
+  cursor: pointer; }
+
+.save:hover {
+  background-color: rgba(5, 30, 143, 0.986); }
+
+.delete {
+  cursor: pointer;
+  font-size: 1.7rem; }
+
+.back-home {
+  display: block;
+  width: 50%;
+  margin: 1rem auto;
+  outline: none;
+  padding: 0.5rem;
+  border: none;
+  font-weight: 600;
+  font-size: 1.3rem;
+  border-radius: 0.4rem;
+  width: 20%;
+  background-color: #00b7ff; }
+
+/*
+https://img5.goodfon.com/wallpaper/nbig/9/64/buket-gerbery-rozovye-kompozitsiia-fon-goluboi-beautiful-bou.jpg
+*/
+html {
+  font-size: 16px; }
+
+.home {
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50rem;
+  width: 100%;
+  padding: 2rem;
+  background-color: rgba(47, 119, 121, 0.945);
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 0.02rem; }
+
+a {
+  text-decoration: none; }
+
+.compleceted-list {
+  width: 70%;
+  margin: 3rem auto; }
+  .compleceted-list .single-todo {
+    list-style-type: none;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    padding: 0.4rem;
+    padding-left: 1rem !important;
+    padding-right: 1.3rem !important;
+    /* background-color: rgba(14, 92, 112, 0.459);*/
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: white 1px solid; }
+    .compleceted-list .single-todo .todo-text {
+      color: #202020;
+      font-weight: 600;
+      cursor: pointer; }
+  .compleceted-list .single-todo:hover {
+    background-color: rgba(83, 80, 80, 0.384); }
+
+/*
+https://i.pinimg.com/originals/33/bd/4d/33bd4db20da9e3eb5555cca4a609d5ba.png
+
+https://www.kolpaper.com/wp-content/uploads/2020/11/Colorful-Big-Sur-Wallpaper-2.jpg
+
+
+https://cdn.lifehack.org/wp-content/uploads/2012/12/simple_7-1024x640.png
+
+https://images5.alphacoders.com/406/406872.jpg
+
+*/
+.timer-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50rem;
+  width: 100%;
+  background-position: center;
+  background-image: url("https://cdn.wallpapersafari.com/65/55/E8SoIN.jpg");
+  text-align: center;
+  padding-top: 5rem; }
+
+.current-todo-text {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 2rem;
+  font-weight: 800;
+  line-height: 3rem;
+  letter-spacing: 0.2rem; }
+
+.current-todo-time {
+  font-size: 3.5rem;
+  color: rgba(255, 255, 255, 0.774);
+  font-weight: 600; }
+
+.todo-text {
+  display: block;
+  width: 80%; }

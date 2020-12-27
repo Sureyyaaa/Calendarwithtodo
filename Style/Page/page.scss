@@ -1,0 +1,86 @@
+@import '../variable.scss';
+@mixin background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50rem;
+    width: 100%;
+}
+/*
+https://img5.goodfon.com/wallpaper/nbig/9/64/buket-gerbery-rozovye-kompozitsiia-fon-goluboi-beautiful-bou.jpg
+*/
+html{
+    font-size: 16px
+}
+.home{
+    @include background();
+    padding: 2rem;
+    background-color: rgba(47, 119, 121, 0.945);
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.02rem;
+}
+a{
+    text-decoration: none;
+}
+.compleceted-list{
+    width: 70%;
+    margin: 3rem auto;
+
+    .single-todo{
+      list-style-type: none;
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      padding: 0.4rem;
+      padding-left: 1rem !important;
+      padding-right: 1.3rem !important;
+     /* background-color: rgba(14, 92, 112, 0.459);*/
+      border-radius: 0.2rem;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: white 1px solid;
+
+      .todo-text{
+          color: rgb(32, 32, 32);
+          font-weight: 600;
+          cursor: pointer;
+      }
+    }
+    .single-todo:hover{
+        background-color: rgba(83, 80, 80, 0.384);
+    }
+}
+/*
+https://i.pinimg.com/originals/33/bd/4d/33bd4db20da9e3eb5555cca4a609d5ba.png
+
+https://www.kolpaper.com/wp-content/uploads/2020/11/Colorful-Big-Sur-Wallpaper-2.jpg
+
+
+https://cdn.lifehack.org/wp-content/uploads/2012/12/simple_7-1024x640.png
+
+https://images5.alphacoders.com/406/406872.jpg
+
+*/
+// timer page
+.timer-section{
+    @include background();
+    background-position: center;
+    background-image: url("https://cdn.wallpapersafari.com/65/55/E8SoIN.jpg");
+    text-align: center;
+    padding-top: 5rem;
+}
+.current-todo-text{
+    font-size: $font-size-l;
+    color: rgb(255, 255, 255);
+    margin-bottom: 2rem;
+    font-weight: 800;
+    line-height: 3rem;
+    letter-spacing: 0.2rem;
+}
+.current-todo-time{
+    font-size: $font-size-xl;
+    color: rgba(255, 255, 255, 0.774);
+    font-weight: 600;
+}
+.todo-text{
+    display: block;
+    width: 80%;
+}
